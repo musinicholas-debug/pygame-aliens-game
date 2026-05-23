@@ -55,3 +55,17 @@ Le jeu utilise aussi un dossier `data` qui contient les images et les sons néce
 
 ```text
 Add Python to PATH
+
+
+## Installation de Pygame
+
+Pour faire fonctionner ce jeu, vous devez installer Python et Pygame sur votre ordinateur.
+
+### 1. Vérifier que Python est installé
+
+Ouvrez le terminal ou l’invite de commande.
+
+Sur Windows, écrivez :
+
+```bash
+python --version
