@@ -53,7 +53,6 @@ Le jeu utilise aussi un dossier `data` qui contient les images et les sons néce
 
 3. Pendant l’installation, cochez l’option :
 
-```text
 Add Python to PATH
 
 
@@ -67,5 +66,5 @@ Ouvrez le terminal ou l’invite de commande.
 
 Sur Windows, écrivez :
 
-```bash
+bash
 python --version
