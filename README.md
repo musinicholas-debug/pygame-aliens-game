@@ -1,11 +1,11 @@
 # Pygame Aliens Game
 
-## Description
+# Description
 
 Ce projet est une version modifiée du jeu Pygame Aliens.  
 Nous avons ajouté plusieurs fonctionnalités, comme un menu principal, un système de meilleurs scores, des niveaux de difficulté et des power-ups.
 
-## Fonctionnalités ajoutées
+# Fonctionnalités ajoutées
 
 - Menu principal interactif
 - Sauvegarde des meilleurs scores dans un fichier JSON
@@ -17,9 +17,9 @@ Nous avons ajouté plusieurs fonctionnalités, comme un menu principal, un syst�
   - Vie supplémentaire
   - Ralentissement des ennemis
 
-## Installation
+# Installation
 
-### 1. Installer Python
+# 1. Installer Python
 
 Téléchargez et installez Python à partir du site officiel :
 
