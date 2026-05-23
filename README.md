@@ -1,51 +1,57 @@
 # Pygame Aliens Game
 
-# Description
+## Description du projet
 
-Ce projet est une version modifiée du jeu Pygame Aliens.  
-Nous avons ajouté plusieurs fonctionnalités, comme un menu principal, un système de meilleurs scores, des niveaux de difficulté et des power-ups.
+Ce projet est une version modifiée du jeu **Pygame Aliens**.  
+Le but du jeu est de contrôler un joueur, tirer sur les aliens et survivre le plus longtemps possible en évitant les bombes ennemies.
 
-# Fonctionnalités ajoutées
+Dans cette version, plusieurs nouvelles fonctionnalités ont été ajoutées afin d’améliorer l’expérience de jeu, comme un menu principal, un système de meilleurs scores, différents niveaux de difficulté et des power-ups.
+
+## Fonctionnalités ajoutées
 
 - Menu principal interactif
-- Sauvegarde des meilleurs scores dans un fichier JSON
-- Choix de difficulté : Facile, Moyen, Difficile
+- Option pour commencer une nouvelle partie
+- Option pour voir les meilleurs scores
+- Option pour choisir le niveau de difficulté
+- Trois niveaux de difficulté :
+  - Facile
+  - Moyen
+  - Difficile
 - Système de vies
-- Power-ups :
+- Sauvegarde des meilleurs scores dans un fichier JSON
+- Power-ups pendant la partie :
   - Bouclier
   - Double tir
   - Vie supplémentaire
   - Ralentissement des ennemis
+- Écran de fin de partie avec le score final
 
-# Installation
+## Membres de l'équipe
 
-# 1. Installer Python
+- Nicholas Musi
+- Gianni Gambato
+- Joshua
+- Ajouter les autres noms des membres ici, si nécessaire
 
-Téléchargez et installez Python à partir du site officiel :
+## Prérequis
 
-https://www.python.org/
+Pour faire fonctionner ce jeu, vous devez avoir installé :
 
-Pendant l’installation, cochez l’option :
+- Python
+- Pygame ou pygame-ce
 
+Le jeu utilise aussi un dossier `data` qui contient les images et les sons nécessaires au fonctionnement du jeu. Sans ce dossier, le jeu ne pourra pas charger certaines ressources comme les images du joueur, des aliens, des tirs, des bombes et du fond d’écran.
 
-Add Python to PATH
+## Installation de Python
 
-pip install pygame
-pip install pygame-ce
-git clone LIEN_DU_DEPOT
-cd pygame-aliens-game
-python Aliens.py
+### Sur Windows
 
-## 6. Vérifier que tout fonctionne
+1. Allez sur le site officiel de Python :  
+   https://www.python.org/
 
-Avant de remettre le lien GitHub, vérifie que :
+2. Téléchargez la dernière version de Python.
+
+3. Pendant l’installation, cochez l’option :
 
 ```text
-Le dépôt est public.
-Le premier commit contient le code original.
-Le message du premier commit mentionne clairement que c’est le code original.
-La licence est présente.
-Le README explique comment installer Python et Pygame.
-Le code final est présent.
-Le dossier data est présent avec toutes les images et sons.
-Le jeu fonctionne quand on lance python Aliens.py.
+Add Python to PATH
