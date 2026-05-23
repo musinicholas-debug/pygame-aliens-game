@@ -27,5 +27,25 @@ https://www.python.org/
 
 Pendant l’installation, cochez l’option :
 
-```text
+
 Add Python to PATH
+
+pip install pygame
+pip install pygame-ce
+git clone LIEN_DU_DEPOT
+cd pygame-aliens-game
+python Aliens.py
+
+## 6. Vérifier que tout fonctionne
+
+Avant de remettre le lien GitHub, vérifie que :
+
+```text
+Le dépôt est public.
+Le premier commit contient le code original.
+Le message du premier commit mentionne clairement que c’est le code original.
+La licence est présente.
+Le README explique comment installer Python et Pygame.
+Le code final est présent.
+Le dossier data est présent avec toutes les images et sons.
+Le jeu fonctionne quand on lance python Aliens.py.
